@@ -62,9 +62,10 @@ włóż NAZWA_ZMIENNEJ na NAZWA_ZMIENNEJ | LICZBA miejsce NAZWA_TABLICY
 ```lub``` - równoważne logicznej alternatywnie  
 
 ### Równoważne operatory negacji
-```zaneguj```  
-```nie```  
-```przemień```  
+
+- ```zaneguj```
+- ```nie```
+- ```przemień```
 
 ## Nawiasy
 ```począteknawiasu  koniecnawiasu```
