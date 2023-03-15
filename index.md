@@ -42,6 +42,11 @@ włóż NAZWA_ZMIENNEJ na NAZWA_ZMIENNEJ | LICZBA miejsce NAZWA_TABLICY
 ## Operatory
 ```to``` - przypisanie  
 
+## Operatory rzutowania
+```
+rzuć [NAZWA_ZMIENNEJ] na [typ]
+```
+
 ## Operatory matematyczne
 ```dodać``` - dodawanie  
 ```odjąć``` - odejmowanie  
