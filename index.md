@@ -239,4 +239,5 @@ wywołaj QUICKSORT TABLICA i 0 i ROZMIAR
 
 ## Inne zarezerwowane słowa kluczowe
 - ```minus```
+- ```nieliczba```
 
