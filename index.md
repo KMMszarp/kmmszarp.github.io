@@ -1,4 +1,3 @@
-Aaa
 Język KMMszarp jest czysto alfanumerycznym języka programowania wysokiego poziomu. 
 Wykorzystuje on typowanie silne oraz statyczne. Jego główne założenie to czytelność kodu dla zwykłego użytkownika. 
 Jest językiem ogólnego przeznaczenia. Obsługuje on polskie znaki diakrytyczne. Jest bezkontekstowy.
@@ -134,7 +133,7 @@ wywołaj [NAZWA_CZYNNOŚCI] NAZWA1 i NAZWA 2 i ...
 ### Pętla zakres
 ```
 pętla zakres zmienna liczba I od 0 do 10 początek pętli
-	wywołaj napisz początekcudzysłowu Przykładowy tekst konieccudzysłowu
+	wywołaj napisz początek cudzysłowu Przykładowy tekst koniec cudzysłowu
 koniec pętli
 ```
 
@@ -143,7 +142,7 @@ koniec pętli
 zmienna liczba TEST to 10
 pętla podczas TEST jest mniejsze niż 12 początek pętli
 jeżeli TEST moduł 2 równe 0 wtedy początek jeżeli
-	   wywołaj napisz początekcudzysłowu liczba jest podzielna przez 2 konieccudzysłowu
+	   wywołaj napisz początek cudzysłowu liczba jest podzielna przez 2 koniec cudzysłowu
 koniec jeżeli 
 TEST to TEST odjąć 1
     
@@ -176,7 +175,7 @@ liczba C to 30
 ```
 czynność dodawanie 
 parametry zmienna liczba SKŁADNIK1 i zmienna liczba SKŁADNIK2 
-zwraca liczba początekc zynności
+zwraca liczba początek czynności
 	zwróć SKŁADNIK1 dodaj SKŁADNIK2
 koniec czynności
 ```
@@ -194,7 +193,7 @@ zwraca nicość początek czynności
 koniec czynności
 
 czynność PODZIELTABLICE 
-parametry tablica liczba TAB o długości zmienna liczba N i zmienna liczba L i zmienna liczba R
+parametry tablica liczba TAB i zmienna liczba N i zmienna liczba L i zmienna liczba R
 zwraca liczba początek czynności
 	zmienna liczba INDEKSPODZIAŁU to wywołaj WYBIERZPUNKTPODZIAŁU L i R
 	zmienna liczba WARTOŚĆPODZIAŁU to weź INDEKSPODZIAŁU element TAB
@@ -216,7 +215,7 @@ zwraca liczba początek czynności
 	zwróć L dodaj początek nawiasu R odjąć 1 koniec nawiasu moduł 2
 koniec czynności
 
-czynnoścćZAMIEN
+czynnośćZAMIEN
 parametry tablica liczba TAB o długości zmienna liczba N i zmienna liczba I i zmienna liczba J
 zwraca nicość początek czynności
 	jeżeli I nierówne J wtedy początek jeżeli
