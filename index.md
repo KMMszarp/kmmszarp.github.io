@@ -56,8 +56,8 @@ włóż NAZWA_ZMIENNEJ na NAZWA_ZMIENNEJ | LICZBA miejsce NAZWA_TABLICY
 ## Operatory logiczne
 ```mniejsze niż``` - równoważne matematycznemu operatorowi mniejszości  
 ```większe niż``` - równoważne matematycznemu operatorowi większości  
-```mniejsze lub równe```
-```większe lub równe```
+```mniejsze lub równe```  
+```większe lub równe```  
 ```równe``` - równoważne matematycznemu operatorowi równości  
 ```nierówne``` - równoważne matematycznemu operatorowi nierówności  
 ```oraz``` - równoważne logicznej koniunkcji  
