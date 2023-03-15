@@ -217,8 +217,8 @@ zwraca liczba początek czynności
 	zwróć L dodaj początek nawiasu R odjąć 1 koniec nawiasu moduł 2
 koniec czynności
 
-czynnośćZAMIEN
-parametry tablica liczba TAB o długości zmienna liczba N i zmienna liczba I i zmienna liczba J
+czynność ZAMIEN
+parametry tablica liczba TAB i zmienna liczba N i zmienna liczba I i zmienna liczba J
 zwraca nicość początek czynności
 	jeżeli I nierówne J wtedy początek jeżeli
 		zmienna liczba POMOC to weź I element TAB
