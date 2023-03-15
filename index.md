@@ -1,3 +1,4 @@
+Aaa
 Język KMMszarp jest czysto alfanumerycznym języka programowania wysokiego poziomu. 
 Wykorzystuje on typowanie silne oraz statyczne. Jego główne założenie to czytelność kodu dla zwykłego użytkownika. 
 Jest językiem ogólnego przeznaczenia. Obsługuje on polskie znaki diakrytyczne. Jest bezkontekstowy.
@@ -68,41 +69,41 @@ włóż NAZWA_ZMIENNEJ na NAZWA_ZMIENNEJ | LICZBA miejsce NAZWA_TABLICY
 - ```przemień```
 
 ## Nawiasy
-```począteknawiasu  koniecnawiasu```
+```początek nawiasu  koniec nawiasu```
 
 ## Pętle
 
 ### Pętla zakres
 ```
-pętla zakres [deklaracja zmiennej] [NAZWA_ZMIENNEJ] od [NAZWA_ZMIENNEJ] do [NAZWA_ZMIENNEJ] początekpętli
+pętla zakres [deklaracja zmiennej] [NAZWA_ZMIENNEJ] od [NAZWA_ZMIENNEJ] do [NAZWA_ZMIENNEJ] początek pętli
 
-koniecpętli
+koniec pętli
 ```
 
 ### Pętla podczas
 ```
-pętla podczas [warunek] początekpętli
+pętla podczas [warunek] początek pętli
 	
-koniecpętli
+koniec pętli
 ```
 
 ## Instrukcje warunkowe
 
 ### Jeżeli
 ```
-jeżeli [warunek] wtedy początekjeżeli
+jeżeli [warunek] wtedy początek jeżeli
 
-koniecjeżeli 
+koniec jeżeli 
 ```
 
 ### Jeżeli, w przeciwnym wypadku
 ```
-jeżeli [warunek] wtedy początekjeżeli
+jeżeli [warunek] wtedy początek jeżeli
 
-koniecjeżeli 
+koniec jeżeli 
 w przeciwnym wypadku [warunek] początek jeżeli
 
-koniecjeżeli
+koniec jeżeli
 ```
 
 ## Funkcje
@@ -110,17 +111,17 @@ koniecjeżeli
 ```
 czynność [NAZWA_CZYNNOŚCI]
 parametry [zmienna typzmiennej NAZWA1 i zmienna typzmiennej NAZWA2 i …]
-zwraca [typzmiennej] początekczynności
+zwraca [typzmiennej] początek czynności
 
-koniecczynności
+koniec czynności
 ```
 
 ### Deklaracja funkcji bez parametrów
 ```
 czynność [NAZWA_CZYNNOŚCI]
-zwraca [typzmiennej] początekczynności
+zwraca [typzmiennej] początek czynności
 
-koniecczynności
+koniec czynności
 ```
 
 ### Wywołanie funkcji
@@ -132,24 +133,24 @@ wywołaj [NAZWA_CZYNNOŚCI] NAZWA1 i NAZWA 2 i ...
 
 ### Pętla zakres
 ```
-pętla zakres zmienna liczba I od 0 do 10 początekpętli
+pętla zakres zmienna liczba I od 0 do 10 początek pętli
 	wywołaj napisz początekcudzysłowu Przykładowy tekst konieccudzysłowu
-koniecpętli
+koniec pętli
 ```
 
 ### Pętla podczas oraz instrukcja warunkowa
 ```
 zmienna liczba TEST to 10
-pętla podczas TEST jest mniejsze niż 12 początekpętli
-jeżeli TEST moduł 2 równe 0 wtedy początekjeżeli
+pętla podczas TEST jest mniejsze niż 12 początek pętli
+jeżeli TEST moduł 2 równe 0 wtedy początek jeżeli
 	   wywołaj napisz początekcudzysłowu liczba jest podzielna przez 2 konieccudzysłowu
-koniecjeżeli 
+koniec jeżeli 
 TEST to TEST odjąć 1
     
-    koniecjeżeli
+    koniec jeżeli
     
     TEST to TEST dodaj 1
-koniecpętli
+koniec pętli
 ```
 
 ### Deklaracja i przypisanie zmiennych
@@ -175,9 +176,9 @@ liczba C to 30
 ```
 czynność dodawanie 
 parametry zmienna liczba SKŁADNIK1 i zmienna liczba SKŁADNIK2 
-zwraca liczba początekczynności
+zwraca liczba początekc zynności
 	zwróć SKŁADNIK1 dodaj SKŁADNIK2
-koniecczynności
+koniec czynności
 ```
 
 ### Sortownie szybkie
@@ -185,45 +186,45 @@ koniecczynności
 czynność QUICKSORT
 parametry tablica liczba TAB i zmienna liczba L i zmienna liczba R
 zwraca nicość początek czynności
-	jeżeli L mniejsze niż P wtedy początekjeżeli
+	jeżeli L mniejsze niż P wtedy początek jeżeli
 		zmienna liczba I to wywołaj PODZIELTABLICE TAB i L i R 
 		wywołaj QUICKSORT TAB i L i I odjąć 1
 		wywołaj QUICKSORT TAB i I dodać 1 i R
-	koniecjeżeli
+	koniec jeżeli
 koniec czynności
 
 czynność PODZIELTABLICE 
 parametry tablica liczba TAB o długości zmienna liczba N i zmienna liczba L i zmienna liczba R
-zwraca liczba początekczynności
+zwraca liczba początek czynności
 	zmienna liczba INDEKSPODZIAŁU to wywołaj WYBIERZPUNKTPODZIAŁU L i R
 	zmienna liczba WARTOŚĆPODZIAŁU to weź INDEKSPODZIAŁU element TAB
 	wywołaj ZAMIEN TAB i INDEKSPODZIAŁU i R
 	zmienna liczba AKTUALNAPOZYCJA to L
-	pętla zakres zmienna liczba I od L do R odjąć 1 początekpętli
-		jeżeli weź I element TAB mniejsze niż WARTOŚĆPODZIAŁU wtedy początekjeżeli
+	pętla zakres zmienna liczba I od L do R odjąć 1 początek pętli
+		jeżeli weź I element TAB mniejsze niż WARTOŚĆPODZIAŁU wtedy początek jeżeli
 			wywołaj ZAMIEŃ TAB i I i AKTUALNAPOZYCJA
 			AKTUALNAPOZYCJA to AKTUALNAPOZYJA dodać 1
-		koniecjeżeli
-	koniecpętli
+		koniec jeżeli
+	koniec pętli
 	wywołaj ZAMIEŃ TAB i AKTUALNAPOZYCJA i R
 	zwróć AKTUALNAPOZYCJA
-koniecczynności
+koniec czynności
 
 czynność WYBIERZPUNKTPODZIAŁU 
 parametry liczba L i liczba R
-zwraca liczba początekczynności
-	zwróć L dodaj począteknawiasu R odjąć 1 koniecnawiasu moduł 2
-koniecczynności
+zwraca liczba początek czynności
+	zwróć L dodaj początek nawiasu R odjąć 1 koniec nawiasu moduł 2
+koniec czynności
 
-czynnośc ZAMIEN
+czynnoścćZAMIEN
 parametry tablica liczba TAB o długości zmienna liczba N i zmienna liczba I i zmienna liczba J
-zwraca nicość początekczynności
-	jeżeli I nierówne J wtedy początekjeżeli
+zwraca nicość początek czynności
+	jeżeli I nierówne J wtedy początek jeżeli
 		zmienna liczba POMOC to weź I element TAB
 		włóż weź J element TAB na I miejsce TAB
 		włóż POMOC na J miejsce TAB
-	koniecjeżeli
-koniecczynności
+	koniec jeżeli
+koniec czynności
 
 tablica liczba TAB to 3 i 2 i 4 i 10 i 6
 zmienna liczba ROZMIAR to 5
